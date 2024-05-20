@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#gameArea {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.player {
+    position: absolute;
+    border: solid 1px red;
+    top: 225px;
+    left: 225px;
+    width: 16px;
+    height: 18px;
+    background-image: url('https://opengameart.org/sites/default/files/Green-Cap-Character-16x18.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    transform: scale(2);
+}

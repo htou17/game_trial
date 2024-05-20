@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.sprite {
+    width: 16px;
+    height: 18px;
+    background-image: url('https://opengameart.org/sites/default/files/Green-Cap-Character-16x18.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
